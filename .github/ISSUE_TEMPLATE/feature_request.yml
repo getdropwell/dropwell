@@ -1,0 +1,47 @@
+name: Feature request
+description: An idea for Dropwell, or a bank statement layout you would like it to read.
+title: "[Feature]: "
+labels: ["feature"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for the idea. Issues here are public.
+
+        **Never attach bank statements, forms or personal data.** Describe what you need in words instead.
+  - type: textarea
+    id: job
+    attributes:
+      label: What you are trying to do
+      description: The job, in your own words, and what you do today to get it done.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help
+      description: How you would like Dropwell to do it.
+    validations:
+      required: true
+  - type: textarea
+    id: statement
+    attributes:
+      label: For a bank statement layout
+      description: The bank and country, text PDF or scan, the language, and the column names (for example Date, Description, Withdrawals, Deposits, Balance). No account numbers, names or amounts.
+    validations:
+      required: false
+  - type: input
+    id: version
+    attributes:
+      label: Dropwell version
+      description: Dropwell menu, About Dropwell. Leave empty if you have not installed it yet.
+      placeholder: "1.0 (3)"
+    validations:
+      required: false
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy
+      options:
+        - label: This issue holds no bank statement, form or personal data.
+          required: true
