@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Download Dropwell
+    url: https://getdropwell.com/download
+    about: The current notarized DMG, its SHA-256 and the install steps.
+  - name: Questions, pricing and the FAQ
+    url: https://getdropwell.com/#faq
+    about: Answers about plans, the free trial, licenses and privacy. Order and license questions are answered from the email with your license key.
